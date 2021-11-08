@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="website_style.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+             function scrollto(div)
+        {
+          $('html,body').animate(
+            {
+              scrollTop: $("#"+div).offset().top
+            }, 'slow');
+        }
+        </script>
+        <title>Test Page</title>
+    </head>
+
+    <body>
+        <div id="header">
+            <p><li id="site_name">Adisty's Landing Page</li></p>
+            <li onclick="scrollto('home');"><a class="nav-link" data-value="home" href="#home">Home</a></li>
+            <li onclick="scrollto('about');"><a class="nav-link" data-value="about" href="#about">About</a></li>
+            <li onclick="scrollto('portfolio');"><a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a></li>
+            <li onclick="scrollto('blog');"><a class="nav-link" data-value="blog" href="#blog">Blog</a></li>
+            <li onclick="scrollto('team');"><a class="nav-link" data-value="team" href="#team">Team</a></li>
+            <li onclick="scrollto('contact');"><a class="nav-link" data-value="contact" href="#contact">Contact</a></li>
+        </div>
+
+        <div id="home">
+            <h1>Portfolio of Adisty R Amany</h1>
+            <p>Welcome. This is a landing page, made by Adisty for the final project of the 'Belajar Langkah Fundamental untuk 
+                Menjadi Web Programmer' class from kode.id (HACKTIV8).</p>
+        </div>
+
+        <div id="about">
+            <h1>About Adisty</h1>
+            <img src="file:///D:/Pelatihan%20Web%20Dev%20-%20Prakerja/Final%20Project/test-haruka.jpg" width="128" height="100" class="profpic">
+            <p>Adisty is a student of the 'Belajar Langkah Fundamental untuk 
+                Menjadi Web Programmer' class. They are also currently applying job vacancies here and there
+            while learning how to make a website on their own. Let's hope Adisty will get their better future very soon.</p>
+        </div>
+
+        <div id="portfolio">
+            <h1>Portfolio</h1>
+                <div class="row">
+                    <div class="column">
+                        <img src="IMG_20190205_183122.jpg" class="img-fluid" width="200" height="200">
+                    </div>
+                    <div class="column">
+                        <img src="IMG_20190206_115857.jpg" class="img-fluid" width="200" height="200">
+                    </div>
+                    
+                    <div class="column">
+                        <img src="IMG_20190421_085343.jpg" class="img-fluid" width="200" height="200">
+                    </div>
+                    <div class="column">
+                        <img src="IMG_20190421_101031.jpg" class="img-fluid" width="200" height="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog">
+            <h1>Blog</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="0_kUywDYdhsORhtDU9.jpg" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                        <h4 class="card-title">BTS dan Kunto Aji : Mengapa Kita Membutuhkan Lebih Banyak Musisi Seperti Ini</h4>
+                            <p class="card-text"><em>
+                                Baik BTS maupun Kunto Aji melihat urgensi pengangkatan isu kondisi sosial masyarakat di 
+                                sekitarnya dalam bentuk yang dapat diterima dan dinikmati oleh hampir semua kalangan: musik.
+                            </em></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://miro.medium.com/max/700/1*SZPC941O4AvMu-yGCmHygw.png" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                           <h4 class="card-title">BTS dan Youth Empowerment (A Special Interview with Shifra Lushka)</h4>
+                            <p class="card-text"><em>
+                                "Karena jelas, anak muda yang membutuhkan pegangan akan menjadi orang-orang dewasa yang 
+                                membangun eranya sendiri. Mereka membutuhkan contoh nyata bahwa menjadi seorang dewasa bukan 
+                                berarti menjadi seseorang yang tidak menyenangkan, percaya stereotip, dan mudah menjustifikasi."
+                            </em></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://miro.medium.com/max/700/1*95_jPcx_HaiX2BoSFMBVag.png" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                           <h4 class="card-title">Sarapan yang (Sengaja) Dilupakan</h4>
+                            <p class="card-text"><em>
+                                Sarapan seakan menjadi setara dengan camilan yang bisa saya tunda sampai nanti bersama dengan 
+                                makan siang.
+                            </em></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://miro.medium.com/max/1400/1*jIvg4DmJlL2RdF0HXkUfog.png" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                        <h4 class="card-title">Aplikasi Spekun dan ManaBikun : Efisiensi atau Gengsi?</h4>
+                            <p class="card-text"><em>
+                                Benarkah Spekun dan ManaBikun diciptakan demi efisiensi mahasiswa dalam beraktivitas, atau justru karena 
+                                ingin menjadi yang pertama di Indonesia sehingga kedua aplikasi tersebut diciptakan seburu-buru mungkin?
+                            </em></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="team">
+            <h1>The Team</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="haruka_tenou_eternal.png" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                        <h4 class="card-title">Tenou Haruka</h4>
+                            <p class="card-text"><em>
+                                Software Engineer
+                            </em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="michiru_kaiou_eternal_LI.jpg" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                           <h4 class="card-title">Kaiou Michiru</h4>
+                            <p class="card-text"><em>
+                                General Manager
+                            </em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="setsuna_meiou_eternal.jpg" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                           <h4 class="card-title">Meiou Setsuna</h4>
+                            <p class="card-text"><em>
+                                Full-Stack Developer
+                            </em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="hotaru_tomoe_eternal.png" class="img-fluid" width="200" height="200">
+                        </div>
+                        
+                        <div class="card-body">
+                        <h4 class="card-title">Tomoe Hotaru</h4>
+                            <p class="card-text"><em>
+                                UI/UX Designer
+                            </em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h1>Reach Me</h1>
+            <p>Shall there be any questions, kindly contact me at 
+            <a href=""><b>me@email.com</b></a> 
+            or you can fill the form below: </p>
+            <div class="container">
+                <form>
+              
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+              
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="YourEmail@email.com..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </div>
+
+    </body>
+</html>

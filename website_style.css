@@ -1,0 +1,195 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+
+header {
+    width: 100%
+}
+
+#header li {
+    display: inline-block;
+    padding: 8px;
+    margin-right: 25px;
+    font-size: 23px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    cursor: pointer;
+    border: dashed 1.5px white;
+    font-family: monospace;
+}
+
+#header #site_name {
+    text-align: center;
+    width: 680px;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+a:link{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+a:active{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+a:visited{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+#home, #about {
+    margin-top: 100px;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    padding: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: darksalmon;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+}
+
+#portfolio, #team {
+    margin-top: 100px;
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    padding: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: darksalmon;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+}
+
+#blog, #contact {
+    margin-top: 100px;
+    width: 90%;
+    height: 725px;
+    margin-left: 5%;
+    padding: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: darksalmon;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+}
+
+#home h1 {
+    font-size: 32px;
+}
+
+#home p {
+    font-size: 16px;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+.column {
+    float: left;
+  width: 24%;
+  padding: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.card-body {
+    width: 75%;
+    background-color: rgb(238, 189, 99);
+    background-size: auto;
+    border-radius: 7px;
+}
+
+.card-footer {
+    border: dashed  rgb(238, 189, 99);
+    width: 75%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid burlywood; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: coral;
+  }
+  
+  /* background color and padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: burlywood;
+    padding: 15px;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
